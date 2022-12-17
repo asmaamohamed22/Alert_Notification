@@ -46,7 +46,7 @@ namespace MANotification.Controllers
                 await _repo.AddUser(user);
                 await _userHub.Clients.All.createUser(user);
 
-                return Ok("User Added Successfully");
+                return Ok("User Added Successfully!");
             }
         }
     }
