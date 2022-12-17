@@ -1,0 +1,24 @@
+
+<div class="container ">
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+      <div class="row justify-content-center">
+        <div style="text-align:center;" class="d-flex justify-content-center mx-4 mt-3 mb-3 mb-lg-4">
+            <table class="styled-table" *ngIf="notifications && notifications.length">
+                <thead>
+                    <tr>
+                        <th>Notification Title</th>
+                        <th>Notification Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let notification of notifications">
+                        <td >{{notification.alertTitle}}</td>
+                        <ng-container *ngFor="let status of NotificationStatus">
+                            <td *ngIf="notification.status == status.id">{{status.name}}</td>
+                        </ng-container>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

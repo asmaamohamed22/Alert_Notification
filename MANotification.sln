@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MANotification", "MANotification\MANotification.csproj", "{77857717-A852-448E-B81B-E6CEC4E58433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77857717-A852-448E-B81B-E6CEC4E58433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77857717-A852-448E-B81B-E6CEC4E58433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77857717-A852-448E-B81B-E6CEC4E58433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77857717-A852-448E-B81B-E6CEC4E58433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC41009E-6253-470F-991E-A066BFCD2022}
+	EndGlobalSection
+EndGlobal
